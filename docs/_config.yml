@@ -2,13 +2,11 @@
 #
 
 # Site settings
-title: Spectral
+title: RIZA SAM
 description: |
-  Another fine responsive  
-  site template freebie  
-  crafted by [HTML5 UP](http://html5up.net)
-owner: Your Name # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
+  Rıza SAM Resmi Web Sitesi
+owner: Rıza Sam # or company name
+first_published: 2019 # if migrating another site, the year of your first publish
 email: riza@rizasam.com
 baseurl: "/rizasamcom" # the subpath of your site, e.g. /blog
 url: "https://rizasam.github.io" # the base hostname & protocol for your site
