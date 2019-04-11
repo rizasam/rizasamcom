@@ -4,19 +4,22 @@
   <nav id="nav">
     <ul>
       <li class="special">
-        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+        <a href="#menu" class="menuToggle"><span>Menü</span></a>
         <div id="menu">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="">Anasayfa</a></li>
             {% for my_page in site.pages %}
             {% if my_page.title %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            <!-- <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li> -->
             {% endif %}
             {% endfor %}
-            <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"
-                   class="icon fa-feed"> RSS Feed</a></li>
+            <li><a class="scrolly" href="#kimdir">Kimdir</a></li>
+            <li><a class="scrolly" href="#kisisel">Kişisel Bilgiler</a></li>
+            <li><a class="scrolly" href="#akademik">Akademik Bilgiler</a></li>
+            <li><a class="scrolly" href="#is-tercihleri">İş Tercihleri</a></li>
+            <li><a class="scrolly" href="#uzmanliklar">Uzmanlıklar ve Etkinlikler</a></li>
+            <li><a class="scrolly" href="#referanslar">Referanslar</a></li>
+            <li><a class="scrolly" href="#kariyer">Kariyer Hedefi</a></li>
           </ul>
         </div>
       </li>
